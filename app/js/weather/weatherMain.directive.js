@@ -15,7 +15,7 @@
         .directive('weatherMain', function () {
             return {
                 restrict: 'E',
-                templateUrl: '/views/weather-main.html'
+                templateUrl: 'views/weather-main.html'
             };
         });
 })();

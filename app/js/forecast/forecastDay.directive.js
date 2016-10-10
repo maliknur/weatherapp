@@ -15,7 +15,7 @@
         .directive('forecastDay', function() {
             return {
                 restrict: 'E',
-                templateUrl: '/views/forecast-day.html',
+                templateUrl: 'views/forecast-day.html',
             };
         });
 })();

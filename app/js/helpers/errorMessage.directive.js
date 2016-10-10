@@ -15,7 +15,7 @@
         .directive('errorMessage', function () {
             return {
                 restrict: 'E',
-                templateUrl: '/views/error-message.html'
+                templateUrl: 'views/error-message.html'
             };
         });
 })();

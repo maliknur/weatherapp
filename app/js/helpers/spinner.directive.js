@@ -15,7 +15,7 @@
         .directive('spinner', function () {
             return {
                 restrict: 'E',
-                templateUrl: '/views/spinner.html'
+                templateUrl: 'views/spinner.html'
             };
         });
 })();
