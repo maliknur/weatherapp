@@ -1,0 +1,22 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Weather App</a>
+    </div>
+    <div class="navbar-collapse collapse search" id="bs-example-navbar-collapse-1" aria-expanded="false" style="height: 1px;">
+        <div class="col-md-10">
+            <form class="navbar-form navbar-center" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Enter a location" ng-model="wc.chosenPlace" ng-model-options="{ debounce: 200 }" details="wc.chosenPlaceDetails" googleplace>
+              </div>
+            </form>
+        </div>
+    </div>
+  </div>
+</nav>
