@@ -1,0 +1,5 @@
+<div class="row">
+    <span ng-repeat-start="day in wc.forecast.daily.data | limitTo: 4"></span>
+        <forecast-day data = "{{day}}"></forecast-day>
+    <span ng-repeat-end></span>
+</div>
