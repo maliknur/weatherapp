@@ -18,11 +18,13 @@ Angular Weather App that enables user to enter any location and displays weather
 
 5. `npm install` inside the root directory.
 
-6. Start the server with `grunt` and go to `localhost:7777`.
+6. Install CORS extension to Chrome browser [CORS extension](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en-US) to enable APi calls
 
-7. `grunt test` in order to run unit test
+7. Start the server with `grunt` and go to `localhost:7777`.
 
-8. `grunt doc` in order to generate angular docs for this project
+8. `grunt test` in order to run unit test
+
+9. `grunt doc` in order to generate angular docs for this project
 
 ## To do
 
