@@ -1,0 +1,23 @@
+
+<div class="jumbotron">
+    <div class="" ng-if="wc.address.city" onload="draw();">
+        <h1 ng-bind="wc.address.city" class="text-right"></h1>
+        <h5 ng-bind="wc.address.other" class="text-right"></h5>
+    </div>
+    <div class="weather-wrapper`" ng-if="wc.address.city">
+        <loading-spinner ng-if="!wc.forecast" class="pull-right"></loading-spinner>
+        <div class="weather-currently text-right pull-right" ng-if="wc.forecast">
+            <h6>Right now</h6>
+           <h1>
+               <forecast-icon icon="{{ wc.forecast.currently.icon }}"></forecast-icon>
+               {{wc.forecast.currently.temperature | number:0}}&deg;
+            </h1>
+            <h3>{{wc.forecast.currently.summary}}</h3>
+            <h5>Feels like {{wc.forecast.currently.apparentTemperature | number:0}}&deg;</h5>
+            <h6>Humidity: {{wc.forecast.currently.humidity}} % Dew Point: {{wc.forecast.currently.dewPoint}} Pressure: {{wc.forecast.currently.pressure}}mb</h6>
+        </div>
+    </div>
+</div>
+<div class="photo-credit">
+    <small>Photo credit: https://unsplash.com/@gkumar2175</small>
+</div>
