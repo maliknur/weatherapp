@@ -32,6 +32,16 @@ Angular Weather App that enables user to enter any location and displays weather
 
 2. Add charts on todays weather forecast
 
+## Screenshots
+__Initially loads Seattle weather :__
+![1](/screens/1.png?raw=true)
+
+__User can search any location :__
+![2](/screens/2.png?raw=true)
+
+__Click on each card to see full detail :__
+![3](/screens/3.png?raw=true)
+
 ## License
 This project is open source, and made available under a [MIT License](http://www.opensource.org/licenses/mit-license.php).
 
