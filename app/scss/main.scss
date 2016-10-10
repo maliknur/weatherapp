@@ -1,0 +1,75 @@
+/*** Main ***/
+
+@import 'spinner';
+@import 'icons';
+@import 'flipcard';
+
+/*** Body ***/
+
+html, body {
+    height: 100%;
+    padding-top: 10px;
+}
+
+h1 { font-size: 2.5em; }
+
+h4 { font-size: 1.125em; }
+
+.container {
+  background-color: #FFF;
+  height: 100%;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+.search {
+    text-align: center;
+}
+
+input.form-control {
+    min-width: 300px;
+}
+.center-text {
+    text-align: center;
+}
+
+.navbar,
+.jumbotron {
+    min-width: 300px;
+}
+
+.navbar-default,
+.navbar-form {
+    border: none;
+}
+
+.jumbotron {
+    background: url('/images/seattle.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-bottom: 5px;
+    h1, h2, h3, h4, h5, h6, p {
+        color: #fff;
+    }
+}
+
+.photo-credit {
+    color: #777;
+    margin-bottom: 10px;
+    small {
+        font-size: 0.5em;
+    }
+}
+
+.weather-currently {
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    min-width: 40%;
+    bottom: 10px;
+}
